@@ -25,19 +25,19 @@ It supports the following operations:
 
 ## project setup
 
-### 1. clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone <your-github-repo-link>
 cd lab3_restaurant_database
 ```
 
-Install dependencies
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-Create a .env file in the root folder and add
+### 3. Create a .env file in the root folder and add
 ```bash
 PORT=3000
 MONGODB_URI=your_mongodb_atlas_connection_string

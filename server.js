@@ -5,7 +5,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
-
 app.use(express.json());
 
 const restaurantRoutes = require('./routes/restaurants');
@@ -19,7 +18,7 @@ mongoose
     console.log('Connected to MongoDB Atlas');
 
     app.listen(PORT, () => {
-      console.log(`Server is running on http://localhost:${PORT}`);
+      console.log(`Server running at http://localhost:${PORT}`);
     });
   })
   .catch((error) => {
